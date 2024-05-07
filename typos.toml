@@ -1,0 +1,9 @@
+[type.po]
+check-file = false
+extend-glob = ["*.po"]
+
+[default.extend-identifiers]
+flate2 = "flate2"
+
+[files]
+extend-exclude = ["typos.toml", "*.pot", "*.svg", "*LICENSE*"]

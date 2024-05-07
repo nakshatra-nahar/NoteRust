@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="RnPenShortcutRow" parent="AdwComboRow">
+    <child type="suffix">
+      <object class="GtkDropDown" id="mode_dropdown">
+        <property name="halign">end</property>
+        <property name="valign">center</property>
+        <property name="model">
+          <object class="GtkStringList">
+            <items>
+              <item translatable="yes">Temporary</item>
+              <item translatable="yes">Permanent</item>
+              <item translatable="yes">Toggle</item>
+              <item translatable="yes">Disabled</item>
+            </items>
+          </object>
+        </property>
+      </object>
+    </child>
+  </template>
+</interface>
